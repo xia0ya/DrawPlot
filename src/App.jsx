@@ -25,7 +25,7 @@ function App() {
               boxShadow: '0 2px 12px #b6e0ff55',
             }}
           >
-            晓雅的可视化小窝
+            可视化图表展示
           </h1>
           <ChartGallery charts={charts} onImageClick={setSelectedChart} />
         </>

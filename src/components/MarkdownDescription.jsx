@@ -21,7 +21,7 @@ const MarkdownDescription = ({ markdownFile, onBack, backText }) => {
 
   useEffect(() => {
     if (markdownFile) {
-      fetch(`/src/markdowns/${markdownFile}`)
+      fetch(import.meta.env.BASE_URL + markdownFile)
         .then(res => res.text())
         .then(setContent)
         .catch(() => setContent('描述加载失败。'));
