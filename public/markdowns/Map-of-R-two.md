@@ -1,6 +1,6 @@
 # Map-of-R-two
 
-![图表展示](images\Map-of-R-two.png)
+![图表展示](images/Map-of-R-two.png)
 相较于第一词的地图绘制，这次进行了一些修缮
 
 ```R

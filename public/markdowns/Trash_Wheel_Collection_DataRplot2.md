@@ -2,7 +2,7 @@
 
 > 这是来自tidytuesday项目的图表，用得上
 
-![alt](images\2024-03-05_Trash_Wheel_Collection_DataRplot2.jpeg)
+![alt](images/2024-03-05_Trash_Wheel_Collection_DataRplot2.jpeg)
 
 ```R
 rm(list = ls())

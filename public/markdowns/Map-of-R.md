@@ -1,6 +1,6 @@
 # Map-of-R
 
-![图片展示](images\Map-of-R.png)
+![图片展示](images/Map-of-R.png)
 
 ## 一
 
