@@ -21,7 +21,7 @@ const ChartGallery = ({ charts, onImageClick }) => (
           boxShadow: '0 2px 16px #e5e7eb',
           padding: 20,
           transition: 'transform 0.2s, box-shadow 0.2s',
-          width: 260,
+          width: 360,
         }}
         onClick={() => onImageClick(chart)}
         onMouseOver={e => {
@@ -36,8 +36,28 @@ const ChartGallery = ({ charts, onImageClick }) => (
         <img
           src={chart.image}
           alt={chart.title}
-          style={{ width: 220, height: 160, objectFit: 'contain', borderRadius: 8, background: '#f1f5f9' }}
+          style={{ width: 320, height: 220, objectFit: 'contain', borderRadius: 8, background: '#f1f5f9', position: 'relative' }}
         />
+        {chart.hasVisualization && (
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: 8 }}>
+            <a
+              href={chart.visualizationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                padding: '4px 10px',
+                borderRadius: 6,
+                background: '#2563eb',
+                color: '#fff',
+                textDecoration: 'none',
+                fontSize: 14,
+                fontWeight: 500,
+              }}
+            >
+              大屏可视化展示
+            </a>
+          </div>
+        )}
         <div
           style={{
             marginTop: 14,
@@ -46,7 +66,7 @@ const ChartGallery = ({ charts, onImageClick }) => (
             whiteSpace: 'nowrap',
             overflow: 'hidden',
             textOverflow: 'ellipsis',
-            maxWidth: 220,
+            maxWidth: 320,
             marginLeft: 'auto',
             marginRight: 'auto',
           }}

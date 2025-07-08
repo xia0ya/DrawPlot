@@ -53,5 +53,14 @@ export const charts = [
     title: '2024-03-05_Trash_Wheel_Collection_DataRplot1',
     image: 'images/2024-03-05_Trash_Wheel_Collection_DataRplot1.jpeg',
     markdown: 'markdowns/Trash_Wheel_Collection_DataRplot1.md'
+  },
+  {
+    id: 'python_plot',
+    title: 'python_plot',
+    image: 'images/python_plot.jpg',
+    markdown: 'markdowns/python_plot.md',
+    html: 'markdowns/my_new_charts.html',
+    hasVisualization: true,
+    visualizationUrl: 'markdowns/my_new_charts.html'
   }
 ]; 
