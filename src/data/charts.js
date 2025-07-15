@@ -71,5 +71,11 @@ export const charts = [
     html: 'markdowns/Visualization_poster.html',
     hasVisualization: true,
     visualizationUrl: 'markdowns/Visualization_poster.html'
-  }
+  },
+  {
+    id: 'GreyPicOut',
+    title: 'GreyPicOut',
+    image: 'images/GreyPicOut1.jpg',
+    markdown: 'markdowns/GreyPicOut.md'
+  },
 ]; 
