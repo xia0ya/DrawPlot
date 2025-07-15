@@ -62,5 +62,14 @@ export const charts = [
     html: 'markdowns/my_new_charts.html',
     hasVisualization: true,
     visualizationUrl: 'markdowns/my_new_charts.html'
+  },
+  {
+    id: 'Visualization_poster',
+    title: 'Visualization_poster',
+    image: 'images/Visualization_poster1.jpg',
+    markdown: 'markdowns/Visualization_poster.md',
+    html: 'markdowns/Visualization_poster.html',
+    hasVisualization: true,
+    visualizationUrl: 'markdowns/Visualization_poster.html'
   }
 ]; 
