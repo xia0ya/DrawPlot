@@ -78,4 +78,10 @@ export const charts = [
     image: 'images/GreyPicOut1.jpg',
     markdown: 'markdowns/GreyPicOut.md'
   },
+  {
+    id: 'scatter_combined_hd',
+    title: 'scatter_combined_hd',
+    image: 'images/scatter_combined_hd.png',
+    markdown: 'markdowns/scatter_combined_hd.md'
+  }
 ]; 
