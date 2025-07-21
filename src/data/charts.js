@@ -83,5 +83,19 @@ export const charts = [
     title: 'scatter_combined_hd',
     image: 'images/scatter_combined_hd.png',
     markdown: 'markdowns/scatter_combined_hd.md'
+  },
+  {
+    id: 'TreeHeat',
+    title: 'TreeHeat',
+    image: 'images/TreeHeat.png',
+    markdown: 'markdowns/TreeHeat.md'
+  },
+  {
+    id: 'WorldMap',
+    title: 'WorldMap',
+    image: 'images/WorldMap.png',
+    markdown: 'markdowns/WorldMap.md'
   }
 ]; 
+
+
